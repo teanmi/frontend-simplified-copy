@@ -173,3 +173,73 @@ footer {
 .footer-link {
   padding: 0 16px;
 }
+
+@media (max-width: 728px) {
+  nav {
+    flex-direction: column;
+    padding: 16px 0;
+    height: auto;
+  }
+
+  ul {
+    margin-top: 8px;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    height: auto;
+  }
+  
+  .header-description {
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    width: 40%;
+  }
+
+  .section-description-wrapper {
+    width: auto;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .section-description {
+    flex-direction: column;
+  }
+
+  .discord-description {
+    flex-direction: column-reverse;
+  }
+
+  .discord-image {
+    width: 100%;
+  }
+
+  #contact .row {
+    width: 80%;
+  }
+
+  footer {
+    padding: 48px 24px;
+  }
+
+  .footer-logo {
+    max-width: 360px;
+  }
+
+  .footer-link{
+    padding: 0 8px;
+    font-size: 18px;
+  }
+
+  .footer-links {
+    margin-bottom: 24px;
+  }
+}
